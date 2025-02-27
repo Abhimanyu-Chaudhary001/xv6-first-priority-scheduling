@@ -16,3 +16,10 @@ This project implements First Priority Scheduling in the xv6 operating system, m
 2. git clone https://github.com/your-username/xv6-priority-scheduling.git
 cd xv6-priority-scheduling
 
+3.Install MacPorts from https://www.macports.org/.
+
+4.Open a terminal window where I downloaded the OS.
+5.Install Qemu by writing sudo port install qemu.
+6.sudo port install i386-elf-gcc gdb.
+6.Replace the existing Makefile to a new one with code:https://github.com/ashr123/XV6-MacOS-Makefile.
+7.In order to run, write in the terminal window make qemu clean.
